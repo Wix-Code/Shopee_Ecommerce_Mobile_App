@@ -11,9 +11,9 @@ export default function Index() {
       </View>
       <View style={styles.con}>
         <TouchableOpacity style={styles.btn}><Text style={styles.text}>Let's get started</Text></TouchableOpacity>
-        <View>
+        <View style={styles.align}>
           <Text style={styles.acc}>I already have an account</Text>
-          <Image source={require("../assets/images/bag.png")}/>
+          <Image source={require("../assets/images/btn.png")}/>
         </View>
       </View>
     </ScrollView>
@@ -63,6 +63,12 @@ const styles = StyleSheet.create({
   text: {
     color: "#F3F3F3",
     fontSize: 18,
+  },
+  align: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: 10
   }
 });
 
