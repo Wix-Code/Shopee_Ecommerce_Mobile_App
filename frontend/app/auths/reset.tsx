@@ -14,11 +14,12 @@ const reset = () => {
           <Image source={require("../../assets/images/lo.png")}/>
           <TextInput style={{fontSize: 14, color: "#C2C3CB", fontWeight: "medium", outline: "none", width: "100%"}} placeholder='Phone Number'/>
         </View>
+        <View style={{flexDirection: "row", gap: 10, alignItems: "center", height: 65, boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", paddingHorizontal: 20, borderRadius: 14}}>
+          <Image source={require("../../assets/images/lo.png")}/>
+          <TextInput style={{fontSize: 14, color: "#C2C3CB", fontWeight: "medium", outline: "none", width: "100%"}} placeholder='Phone Number'/>
+        </View>
         <TouchableOpacity style={{backgroundColor: "#141718", height: 65, borderRadius: 14, justifyContent: 'center', alignItems: "center"}}>
-          <Text style={{fontSize: 16, color: "#F3F5F6", fontWeight: "medium", textAlign: "center"}}>Verification</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={{backgroundColor: "#E3E3E3", height: 65, borderRadius: 14, justifyContent: 'center', alignItems: "center"}}>
-          <Text style={{fontSize: 16, color: "#B1B1B1", fontWeight: "medium", textAlign: "center"}}>Later</Text>
+          <Text style={{fontSize: 16, color: "#F3F5F6", fontWeight: "medium", textAlign: "center"}}>Reset</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>
