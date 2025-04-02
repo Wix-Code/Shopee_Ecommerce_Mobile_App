@@ -3,13 +3,12 @@ import React from 'react'
 
 const reset = () => {
   return (
-    <ScrollView contentContainerStyle={{backgroundColor: "#FFFFFF", flex: 1, paddingHorizontal: 40, flexDirection: "column", justifyContent: "space-between", paddingBottom: 40}}>
+    <ScrollView contentContainerStyle={{backgroundColor: "#FFFFFF", flex: 1, paddingHorizontal: 40, flexDirection: "column", gap: 40, paddingBottom: 40}}>
       <TouchableOpacity style={{width: 50, height: 50, justifyContent: "center", alignItems: "center", borderRadius: 20, marginTop: 40, boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"}}>
         <Image source={require("../../assets/images/lef.png")}/>
       </TouchableOpacity>
       <View style={{flexDirection: "column", gap: 20}}>
-        <Text style={{fontSize: 38, color: "#323142", fontWeight: "bold", marginBottom: 40}}>Enter Your Phone
-        Number</Text>
+        <Text style={{fontSize: 38, color: "#323142", fontWeight: "bold", marginBottom: 40}}>Rest Your {"\n"}Password</Text>
         <View style={{flexDirection: "row", gap: 10, alignItems: "center", height: 65, boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", paddingHorizontal: 20, borderRadius: 14}}>
           <Image source={require("../../assets/images/lo.png")}/>
           <TextInput style={{fontSize: 14, color: "#C2C3CB", fontWeight: "medium", outline: "none", width: "100%"}} placeholder='Phone Number'/>
